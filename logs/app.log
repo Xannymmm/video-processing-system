@@ -1,0 +1,42 @@
+2025-03-28 02:39:25,779 - Main - INFO - 启动GUI模式
+2025-03-28 02:39:29,989 - Main - INFO - 程序退出
+2025-03-28 02:39:46,270 - Main - INFO - 启动GUI模式
+2025-03-28 02:41:29,398 - Main - INFO - 程序退出
+2025-03-28 02:50:40,357 - Main - INFO - 启动GUI模式
+2025-03-28 02:50:41,357 - Main - INFO - 程序退出
+2025-03-28 02:50:56,529 - Main - INFO - 启动GUI模式
+2025-03-28 02:51:59,677 - Main - INFO - 程序退出
+2025-03-28 02:57:49,864 - Main - INFO - 启动命令行模式
+2025-03-28 02:57:50,298 - Camera - INFO - 设置分辨率为 720p (1280x720)
+2025-03-28 02:57:50,298 - Camera - INFO - 摄像头 0 初始化成功
+2025-03-28 02:57:50,298 - Main - ERROR - 程序崩溃: VideoRecorder.__init__() got an unexpected keyword argument 'output_format'
+Traceback (most recent call last):
+  File "D:\python-video-processing-system\src\main.py", line 109, in main
+    run_cli_mode(args, logger)
+  File "D:\python-video-processing-system\src\main.py", line 62, in run_cli_mode
+    recorder = VideoRecorder(
+               ^^^^^^^^^^^^^^
+TypeError: VideoRecorder.__init__() got an unexpected keyword argument 'output_format'
+2025-03-28 02:57:50,481 - Camera - INFO - 摄像头资源已释放
+2025-03-28 02:57:50,481 - Main - INFO - 程序退出
+2025-03-28 10:11:35,914 - Main - INFO - 启动命令行模式
+2025-03-28 10:11:37,385 - Camera - ERROR - 无法打开摄像头 0
+2025-03-28 10:11:37,385 - Main - ERROR - 程序崩溃: 摄像头 0 初始化失败
+Traceback (most recent call last):
+  File "D:\python-video-processing-system\src\main.py", line 109, in main
+    run_cli_mode(args, logger)
+  File "D:\python-video-processing-system\src\main.py", line 61, in run_cli_mode
+    camera = Camera(args.camera)
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\python-video-processing-system\src\core\camera.py", line 17, in __init__
+    raise IOError(f"摄像头 {self.camera_index} 初始化失败")
+OSError: 摄像头 0 初始化失败
+2025-03-28 10:11:37,387 - Main - INFO - 程序退出
+2025-03-28 10:11:53,786 - Main - INFO - 启动GUI模式
+2025-03-28 10:12:18,600 - Main - INFO - 程序退出
+2025-03-28 10:12:34,307 - Main - INFO - 启动GUI模式
+2025-03-28 10:12:35,119 - Main - INFO - 程序退出
+2025-03-28 10:12:41,258 - Main - INFO - 启动GUI模式
+2025-03-28 10:14:38,488 - Main - INFO - 程序退出
+2025-03-29 16:56:23,014 - Main - INFO - 启动GUI模式
+2025-03-29 16:58:13,759 - Main - INFO - 程序退出
